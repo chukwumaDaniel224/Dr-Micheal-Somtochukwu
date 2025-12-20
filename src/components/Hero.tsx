@@ -10,14 +10,14 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in">
             <div className="inline-block">
               <span className="px-4 py-2 rounded-full bg-card-hover text-primary text-sm font-medium">
-                Board Certified Physician
+                Board Certified Lab Scientist
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-              Dr. Alexandra Mitchell
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+              Dr. MICHEAL SOMTOCHUKWU
             </h1>
             <p className="text-xl text-muted-foreground">
-              Committed to providing compassionate, evidence-based healthcare with over 15 years of experience in internal medicine.
+              Committed to providing compassionate, evidence-based healthcare with over 5 years of experience in internal medicine.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button variant="hero" size="lg">
@@ -34,12 +34,12 @@ const Hero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <img
                 src={heroImage}
-                alt="Dr. Alexandra Mitchell"
-                className="w-full h-auto object-cover"
+                alt="Dr. Micheal Somtochukwu"
+                className="w-96 h-96 object-contain mx-20"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold gradient-text">15+</div>
+              <div className="text-4xl font-bold gradient-text">5+</div>
               <div className="text-sm text-muted-foreground">Years Experience</div>
             </div>
           </div>

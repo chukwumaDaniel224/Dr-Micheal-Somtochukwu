@@ -3,17 +3,17 @@ import { Award, Heart, Users, TrendingUp } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Users, value: "5000+", label: "Patients Treated" },
-    { icon: Award, value: "20+", label: "Medical Awards" },
-    { icon: Heart, value: "98%", label: "Patient Satisfaction" },
-    { icon: TrendingUp, value: "15+", label: "Years Practice" },
+    { icon: Users, value: "100+", label: "Patients Treated" },
+    { icon: Award, value: "10+", label: "Medical Awards" },
+    { icon: Heart, value: "80%", label: "Patient Satisfaction" },
+    { icon: TrendingUp, value: "5+", label: "Years Practice" },
   ];
 
   return (
     <section id="about" className="section-padding bg-section-bg">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">About Dr. Mitchell</h2>
+          <h2 className="text-4xl font-bold mb-4">About Dr. Micheal Somtochukwu</h2>
           <p className="text-lg text-muted-foreground">
             Dedicated to advancing patient care through expertise, compassion, and continuous innovation in medicine.
           </p>
@@ -41,13 +41,13 @@ const About = () => {
             <CardContent className="p-8 md:p-12">
               <div className="space-y-6 text-foreground">
                 <p className="text-lg leading-relaxed">
-                  Dr. Alexandra Mitchell is a board-certified internal medicine physician with over 15 years of clinical experience. She earned her medical degree from Johns Hopkins University School of Medicine and completed her residency at Massachusetts General Hospital.
+                  Dr. Micheal Somtochukwu is a board-certified internal medicine physician with over 5 years of clinical experience.He earned his medical degree from David Umahi Federal University Science and completed his residency at David Umahi Federal Hospital.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Her approach combines cutting-edge medical knowledge with personalized, patient-centered care. Dr. Mitchell specializes in preventive medicine, chronic disease management, and comprehensive health optimization.
+                  His approach combines cutting-edge medical knowledge with personalized, patient-centered care. Dr. Micheal specializes in preventive medicine, chronic disease management, and comprehensive health optimization.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Beyond clinical practice, Dr. Mitchell is actively involved in medical research and education. She has published numerous peer-reviewed articles and regularly presents at national medical conferences.
+                  Beyond clinical practice, Dr. Micheal is actively involved in medical research and education. He has published numerous peer-reviewed articles and regularly presents at national medical conferences.
                 </p>
               </div>
             </CardContent>

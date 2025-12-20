@@ -3,9 +3,9 @@ const Footer = () => {
     <footer className="bg-card border-t border-border">
       <div className="container-custom section-padding">
         <div className="text-center space-y-4">
-          <div className="text-2xl font-bold gradient-text">Dr. Alexandra Mitchell</div>
+          <div className="text-2xl font-bold gradient-text">Dr. Micheal Somtochukwu</div>
           <p className="text-muted-foreground max-w-md mx-auto">
-            Providing compassionate, evidence-based healthcare for over 15 years.
+            Providing compassionate, evidence-based healthcare for over 5 years.
           </p>
           <div className="flex justify-center gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors">
@@ -21,7 +21,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-sm text-muted-foreground pt-4">
-            © {new Date().getFullYear()} Dr. Alexandra Mitchell. All rights reserved.
+            © {new Date().getFullYear()} Built By Daniel Software's. All rights reserved.
           </div>
         </div>
       </div>

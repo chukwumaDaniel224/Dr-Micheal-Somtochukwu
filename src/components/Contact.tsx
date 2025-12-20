@@ -9,17 +9,17 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Location",
-      details: "123 Medical Plaza, Suite 400\nBoston, MA 02101",
+      details: "David Umahi Federal Hospital",
     },
     {
       icon: Phone,
       title: "Phone",
-      details: "(555) 123-4567",
+      details: "(+234) 701-8052-936",
     },
     {
       icon: Mail,
       title: "Email",
-      details: "dr.mitchell@example.com",
+      details: "somtomicheal08@gmail.com",
     },
     {
       icon: Clock,
@@ -79,7 +79,7 @@ const Contact = () => {
                   <label htmlFor="email" className="text-sm font-medium">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="your@email.com" />
+                  <Input id="email" type="email" placeholder="you@email.com" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">

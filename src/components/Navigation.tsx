@@ -29,8 +29,9 @@ const Navigation = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 px-6">
-          <a href="#" className="text-2xl font-bold gradient-text">
-            Dr. Portfolio
+          <a href="#" className="text-2xl font-bold gradient-text"><span className="inline-flex">
+             CEO MICHEAL FOUNDATION INT' 
+            <img src="./favicon.ico" width={35}></img></span>
           </a>
 
           {/* Desktop Navigation */}
