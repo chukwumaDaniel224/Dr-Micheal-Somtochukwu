@@ -20,27 +20,29 @@ const Hero = () => {
               Committed to providing compassionate, evidence-based healthcare with over 5 years of experience in internal medicine.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="lg">
-                Schedule Consultation
-                <ArrowRight className="ml-2 h-5 w-5" />
+              <Button variant="hero" size="lg" asChild>
+                <a href="#consultation">
+                  Schedule Consultation
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
-              <Button variant="outline" size="lg">
-                View Credentials
+              <Button variant="outline" size="lg" asChild>
+                <a href="#credentials">View Credentials</a>
               </Button>
             </div>
           </div>
 
-          <div className="relative animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+          <div className="relative animate-fade-in flex justify-center md:justify-end" style={{ animationDelay: "0.2s" }}>
+            <div className="relative rounded-2xl overflow-hidden shadow-lg w-full max-w-sm md:max-w-md">
               <img
                 src={heroImage}
                 alt="Dr. Micheal Somtochukwu"
-                className="w-96 h-96 object-contain mx-20"
+                className="w-full h-auto object-cover aspect-square"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold gradient-text">5+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
+            <div className="absolute -bottom-4 left-4 md:-bottom-6 md:-left-6 bg-card p-4 md:p-6 rounded-xl shadow-lg">
+              <div className="text-3xl md:text-4xl font-bold gradient-text">5+</div>
+              <div className="text-xs md:text-sm text-muted-foreground">Years Experience</div>
             </div>
           </div>
         </div>

@@ -24,14 +24,17 @@ const Navigation = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-card/95 backdrop-blur-md shadow-md" : "bg-transparent"
+        isScrolled ? "bg-card/95 backdrop-blur-md shadow-md" : "bg-transparent border-b border-border/50"
       }`}
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 px-6">
-          <a href="#" className="text-2xl font-bold gradient-text"><span className="inline-flex">
-             CEO MICHEAL FOUNDATION INT' 
-            <img src="./favicon.ico" width={35}></img></span>
+          <a href="#" className="flex items-center gap-2">
+            <img src="./favicon.ico" className="w-8 h-8 md:w-10 md:h-10" alt="Logo" />
+            <span className="text-base md:text-xl font-bold gradient-text hidden sm:inline">
+              CEO MICHEAL FOUNDATION INT'
+            </span>
+            <span className="text-base font-bold gradient-text sm:hidden">CMF</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -45,8 +48,8 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button variant="hero" size="sm">
-              Book Appointment
+            <Button variant="hero" size="sm" asChild>
+              <a href="#contact">Book Appointment</a>
             </Button>
           </div>
 
@@ -73,8 +76,8 @@ const Navigation = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="hero" size="sm" className="w-full">
-                Book Appointment
+              <Button variant="hero" size="sm" className="w-full" asChild>
+                <a href="#contact">Book Appointment</a>
               </Button>
             </div>
           </div>
