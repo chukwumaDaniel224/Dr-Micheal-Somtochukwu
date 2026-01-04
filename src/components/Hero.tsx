@@ -37,10 +37,10 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Dr. Micheal Somtochukwu"
-                className="w-full h-auto object-cover aspect-square"
+                className="w-full h-auto object-contain aspect-square"
               />
             </div>
-            <div className="absolute -bottom-4 left-4 md:-bottom-6 md:-left-6 bg-card p-4 md:p-6 rounded-xl shadow-lg">
+            <div className="absolute -bottom-4 left-12 md:-bottom-6 bg-card p-4 md:p-6 rounded-xl shadow-lg">
               <div className="text-3xl md:text-4xl font-bold gradient-text">5+</div>
               <div className="text-xs md:text-sm text-muted-foreground">Years Experience</div>
             </div>

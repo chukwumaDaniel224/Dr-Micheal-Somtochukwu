@@ -10,13 +10,15 @@ const Services = () => {
     },
     {
       icon: Activity,
-      title: "Chronic Disease Management",
-      description: "Expert management of diabetes, hypertension, heart disease, and other chronic conditions with personalized treatment plans.",
+      title: "Diagnostic Laboratory Testing",
+      description: "Provision of accurate, timely, and clinically relevant laboratory test results to support patient diagnosis, treatment, and monitoring, in strict accordance with laboratory protocols, quality standards, and regulatory requirements.",
     },
     {
       icon: Shield,
       title: "Preventive Medicine",
-      description: "Proactive health strategies including vaccinations, cancer screenings, and lifestyle counseling to maintain optimal wellness.",
+      description: <div>● Performance of serological and immunological assays for the screening, diagnosis, and monitoring of infectious and immune-related conditions, in compliance with laboratory quality standards. <br></br>
+      ● Performance of routine hematological investigations, including complete blood counts (CBC), peripheral blood smear examination, and basic coagulation tests, in accordance with approved standard operating procedures.
+      </div>
     },
     {
       icon: Calendar,

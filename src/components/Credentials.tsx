@@ -9,7 +9,7 @@ const Credentials = () => {
       items: [
         "Bachelor of Medical Laboratory Science (BMLS)",
         "David Umahi Federal University of Health Sciences",
-        "Graduated with Honours - 2019",
+        "Graduated with Honours - 2028",
       ],
     },
     {

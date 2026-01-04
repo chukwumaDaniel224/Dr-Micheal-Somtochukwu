@@ -4,28 +4,50 @@ const Experience = () => {
   const timeline = [
     {
       year: "2023 - Present",
-      title: "Chief of Internal Medicine",
-      institution: "Metropolitan Medical Center",
-      description: "Leading a team of 25 physicians providing comprehensive internal medicine care.",
+      title: "PROFESSIONAL EXPERIENCE",
+      institution: "Michael Foundation Hospital Canada",
+      description: <div>● Perform routine and specialized laboratory investigations in Hematology, Clinical Chemistry, Microbiology, and Blood Banking.<br></br>
+      ● Ensure accurate sample collection, analysis, and result reporting in accordance with laboratory standards. <br></br>● Maintain strict compliance with quality control and safety protocols.<br></br>
+      ● Collaborate with physicians and other healthcare professionals to support accurate diagnosis and patient management.<br></br>
+      ● Contribute to continuous improvement of laboratory services through compliance monitoring and best laboratory practices. </div>
     },
     {
-      year: "2015 - 2023",
-      title: "Attending Physician",
-      institution: "Boston General Hospital",
-      description: "Specialized in preventive medicine and chronic disease management.",
+      year: "2024 - Present",
+      title: "Medical Laboratory Science Intern / Student",
+      institution: "Michael Foundation Hospital Canada",
+      description: <div>● Gained hands-on experience in diagnostic laboratory procedures across major laboratory departments, including Hematology, Chemical Pathology, Medical Microbiology, and Blood Banking.<br></br>
+
+      ● Assisted in specimen collection, processing, and analysis, including microscopy, culture techniques, and routine laboratory investigations.<br></br>
+
+      ● Supported laboratory operations through instrument calibration, quality control checks, and equipment maintenance.<br></br>
+
+      ● Developed strong competencies in laboratory ethics, accurate documentation, quality assurance, and infection prevention and control practices.<br></br></div>
     },
     {
-      year: "2012 - 2015",
-      title: "Internal Medicine Residency",
+      year: "Focus",
+      title: "Bachelor of Medical Laboratory Science (BMLS)",
+      institution: "David Umahi Federal University Nigeria",
+      description: <div>● Specialized training in Hematology, Chemical Pathology, Medical Microbiology, Histopathology, and Immunology.<br></br> 
+      ● Strong foundation in laboratory diagnostics, biomedical sciences, and research methodologies.
+      </div>
+    },
+    {
+      year: "2023 - Present",
+      title: "PROFESSIONAL SKILLS",
       institution: "Massachusetts General Hospital",
-      description: "Completed three-year residency program with distinction in patient care.",
+      description: <div>● Diagnostic Laboratory Testing<br></br>
+
+      ● Quality Control & Quality Assurance<br></br>
+
+      ● Laboratory Equipment Handling & Maintenance<br></br>
+
+      ● Result Interpretation & Reporting<br></br>
+
+      ● Infection Prevention & Laboratory Safety<br></br>
+
+      ● Team Collaboration & Effective Communication</div>
     },
-    {
-      year: "2008 - 2012",
-      title: "Doctor of Medicine",
-      institution: "Johns Hopkins University School of Medicine",
-      description: "Graduated magna cum laude with focus on primary care and public health.",
-    },
+    
   ];
 
   return (
