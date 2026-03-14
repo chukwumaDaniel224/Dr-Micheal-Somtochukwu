@@ -49,6 +49,7 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
+            <ThemeToggle />
             <Button variant="hero" size="sm" asChild>
               <a href="#contact">Book Appointment</a>
             </Button>
