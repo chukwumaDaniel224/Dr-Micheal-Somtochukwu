@@ -78,6 +78,10 @@ const Navigation = () => {
                   {link.name}
                 </a>
               ))}
+              <div className="flex items-center justify-between">
+                <span className="text-sm text-muted-foreground">Theme</span>
+                <ThemeToggle />
+              </div>
               <Button variant="hero" size="sm" className="w-full" asChild>
                 <a href="#contact">Book Appointment</a>
               </Button>
